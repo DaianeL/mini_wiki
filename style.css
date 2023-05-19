@@ -1,24 +1,10 @@
 /* CSS - Cascading Style Sheets: Iremos escrever de cima para baixo.*/
-header {
-  border: solid white;
-}
-nav {
-  border: solid white;
-}
-li {
-  list-style: none;
-  color: white;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-.sobreMim {
-  color: seashell;
-}
-
 body {
   background-color: violet;
+}
+
+header {
+  border: solid white;
 }
 
 h1 {
@@ -27,22 +13,38 @@ h1 {
   font-family: Helvetica, Verdana, sans-serif;
 }
 
+img {
+  width: 200px;
+  border-radius: 33px;
+  position: relative;
+  top: 12px;
+  left: 130px;
+}
+
 p {
   color: white;
   font-family: Helvetica, Verdana, sans-serif;
   text-align: center;
 }
 
-img {
-  width: 170px;
-  border-radius: 40px;
-  position: relative;
-  top: 10px;
-  left: 200px;
-}
-
 h2 {
   color: white;
   text-align: center;
   font-family: Helvetica, Verdana, sans-serif;
+}
+
+section {
+  color: white;
+}
+
+footer {
+  color: white;
+}
+nav {
+  border: solid white;
+}
+
+a {
+  text-decoration: none;
+  color: seashell;
 }
